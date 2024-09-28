@@ -7,7 +7,7 @@ const SearchBox = ({ filter, handleChangeFilter }) => {
       <input
         className={s.input}
         type="text"
-        placeholder="Search"
+        placeholder="Пошук"
         value={filter}
         onChange={handleChangeFilter}
       />
