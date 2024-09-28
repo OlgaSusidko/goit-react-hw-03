@@ -39,7 +39,7 @@ const ContactForm = ({ addContact }) => {
       <Form className={s.form}>
         <label className={s.label}>
           <span>Name</span>
-          <Field name="name" className={s.input} placeholder="Ім'я Призвіще" />
+          <Field name="name" className={s.input} placeholder="Ім'я Прізвище" />
           <ErrorMessage name="name" component="p" className={s.error} />
         </label>
 
