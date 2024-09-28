@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 0px 15px 0 green;
+    padding: 20px;
+    margin-bottom: 28px;
+    margin-top: 28px;
+
+    & button {
+        border: none;
+        padding: 12px 15px;
+        background-color: rgb(218, 245, 218);
+        border-radius: 8px;
+        transition: all .4s ease;
+    &:hover {
+            background-color: rgb(170, 243, 170);
+            cursor: pointer;
+            border: none;
+        }
+    }
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+  .input {
+      padding: 10px 12px;
+      box-shadow: 2px 2px 4px 4px lightgray;
+      border: none;
+      border-radius: 8px;
+  }

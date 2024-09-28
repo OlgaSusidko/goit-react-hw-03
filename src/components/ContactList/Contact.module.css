@@ -1,0 +1,33 @@
+.item{
+    box-shadow: 0 0px 15px 0 green;
+    border-radius: 12px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 360px;
+    & button{
+        background-color: rgb(218, 245, 218);
+        transition: all .4s ease;
+        &:hover {
+                background-color: rgb(170, 243, 170);
+                cursor: pointer;
+                border: none;
+            }
+    }
+        
+}
+
+.wrapper{
+    display: grid;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.text{
+    display:inline-flex;
+    gap: 5px;
+    align-items: center;
+}
